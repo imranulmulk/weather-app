@@ -4,7 +4,7 @@ Welcome to the Weather App! This React-based application provides real-time weat
 
 ## Live Demo
 
-Check out the live demo of the Weather App [here](https://react-responsive-weather-web-app.netlify.app/).
+Check out the live demo of the Weather App [here](https://react-responsive-weather-web-app.netlify.app/){:target="_blank"}.
 
 ## Features
 
