@@ -2,6 +2,10 @@
 
 Welcome to the Weather App! This React-based application provides real-time weather data, including current day temperature, weekly forecast, and 24-hour forecast of the current day, fetched from WeatherAPI.com. The app is designed to be responsive across all devices for an optimal user experience.
 
+## Live Demo
+
+Check out the live demo of the Weather App [here](https://react-responsive-weather-web-app.netlify.app/).
+
 ## Features
 
 - **Real-time Weather Data**: Get up-to-date weather information using WeatherAPI.com's interactive API.
