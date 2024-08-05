@@ -16,7 +16,6 @@ Welcome to the Weather App! This React-based application provides real-time weat
 - **React**: A JavaScript library for building user interfaces.
 - **WeatherAPI.com**: An API for fetching real-time weather data.
 - **Tailwind CSS**: A utility-first CSS framework for styling the application.
-- **Netlify**: For deploying the live demo.
 
 ## Installation
 
