@@ -14,7 +14,7 @@ function App() {
   // Current Weather
   const fetchWeatherData = async (searchTerm) => {
     const api = import.meta.env.VITE_WEATHER_API_KEY;
-    const url = `http://api.weatherapi.com/v1/current.json?key=${api}&q=${searchTerm}&aqi=no`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${api}&q=${searchTerm}&aqi=no`;
 
     try {
       const response = await axios.get(url);
@@ -31,7 +31,7 @@ function App() {
   // Forecast
   const fetchForecastWeather = async (searchTerm) => {
     const api = import.meta.env.VITE_WEATHER_API_KEY;
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=${api}&q=${searchTerm}&days=7&aqi=no&alerts=no`;
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=${api}&q=${searchTerm}&days=7&aqi=no&alerts=no`;
 
     try {
       const response = await axios.get(url);
